@@ -1,0 +1,67 @@
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>更多</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<style>
+		:root{--primary-color:#d32f2f;--primary-light:#ff6659;--primary-dark:#bc0000;--secondary-color:#263238;--gold-color:#ffd701}body{background-color:#f5f5f5;color:#333;font-family:'Roboto','Noto Sans SC',sans-serif}.header{background:var(--primary-dark);color:white;padding:1.5rem 0 2rem 0;margin-bottom:2rem;box-shadow:0 4px 6px rgba(0,0,0,0.1)}.card{border-radius:8px;overflow:hidden;transition:transform 0.3s,box-shadow 0.3s}.card:hover{transform:translateY(-5px);box-shadow:0 8px 15px rgba(0,0,0,0.1)}.card-content{padding:1.5rem}.card-title{font-weight:600;color:var(--primary-color);margin-bottom:1rem}.file-list{margin-top:1.5rem}.collection{border:none}.collection-item{border-left:none;border-right:none;display:flex;align-items:center;padding:1rem}.collection-item:first-child{border-top:none}.collection-item:last-child{border-bottom:1px solid#e0e0e0}.file-icon{color:var(--primary-color);margin-right:1rem}.file-info{flex-grow:1}.file-name{font-weight:500}.file-size{font-size:0.85rem;color:#757575}.download-btn{background-color:var(--primary-color);transition:background-color 0.3s}.download-btn:hover{background-color:var(--primary-dark)}.collapsible{border:none;box-shadow:none}.collapsible-header{border:none;font-weight:500;font-size:1.1rem}.collapsible-body{border:none;padding:0}.volume-number{display:inline-block;width:2.5rem;text-align:center;background-color:#f5f5f5;border-radius:4px;padding:0.2rem 0.5rem;margin-right:0.5rem;font-weight:500}.footer{background-color:var(--secondary-color);color:white;padding:2rem 0;margin-top:3rem}.footer a{color:#bbdefb}.footer a:hover{color:white;text-decoration:underline}@media(max-width:600px){.card-content{padding:1rem}}.header-content{display:flex;align-items:center;flex-wrap:wrap}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-content" style="display: flex; align-items: center; justify-content: space-between;">
+				<div class="symbol" style="font-size: 3.5rem; color: var(--gold-color); margin-right: 1.5rem; line-height: 1;">☭<br><span style="font-size: 1.2rem;">全世界无产者，联合起来！</span></div>
+			</div>
+		</div>
+	</header>
+	<main class="container">
+        <div class="card" style="margin-bottom: 2rem;">
+            <div class="card-content">
+                <span class="card-title">
+                    <i class="material-icons left">explore</i>导航
+                </span>
+                <p style="margin-bottom: 0.5rem; color: #546e7a;">从这里快速访问本网站的主要版块</p>
+                <div class="file-list">
+                    <ul class="collection">
+                        <li class="collection-item">
+                            <i class="material-icons file-icon">library_books</i>
+                            <div class="file-info">图书馆</div>
+                            <a href="./" class="btn download-btn waves-effect waves-light" title="返回图书馆首页">
+                                <i class="material-icons">arrow_forward</i>
+                            </a>
+                        </li>
+                        <li class="collection-item">
+                            <i class="material-icons file-icon">school</i>
+                            <div class="file-info">入门</div>
+                            <a href="./get-start.html" class="btn download-btn waves-effect waves-light" title="开始学习入门课程">
+                                <i class="material-icons">arrow_forward</i>
+                            </a>
+                        </li>
+                        <li class="collection-item">
+                            <i class="material-icons file-icon">article</i>
+                            <div class="file-info">文章</div>
+                            <a href="./articles/" class="btn download-btn waves-effect waves-light" title="浏览文章目录">
+                                <i class="material-icons">arrow_forward</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+	<footer class="page-footer footer">
+		<div class="container">
+			<p style="font-size: 1.1rem; margin-bottom: 1rem; text-align: center;">如果有对此页面的任何建议，请在<a target="_blank" href="https://github.com/D-606/D-606.github.io/issues"
+					style="color: var(--gold-color); text-decoration: underline; font-weight: 500;">issues页面</a>提交issue<br>（这需要一个github账号，可以用QQ邮箱等注册）</p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded',function(){var collapsibleElems=document.querySelectorAll('.collapsible');M.Collapsible.init(collapsibleElems,{accordion:false})});
+	</script>
+</body>
+</html> 
